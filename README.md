@@ -1,6 +1,7 @@
 # monero-wallet-gui-aarch64-AppleSilicon
 
-Monero wallet Gui files, compiled on M1 Mac, for Darwin kernel, on Ventura OS, works on Monterey.
+Monero wallet Gui files, compiled on M1 Macbook Pro, for arm64-apple-darwin22.3.0 kernel, Apple clang version 14.0.0 (clang-1400.0.29.102)
+built on Ventura OS, works on Monterey. Target (maybe) macOS 10.12 - 10.13 for better backwards compability.
 
 It is quite easy to build from the original source code at https://github.com/monero-project/monero-gui
 using command: make release -j4
