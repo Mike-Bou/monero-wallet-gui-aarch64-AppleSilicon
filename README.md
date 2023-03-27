@@ -3,6 +3,19 @@
 Monero wallet Gui files, compiled on M1 Mac, for Darwin kernel, on Ventura OS, works on Monterey.
 
 It is quite easy to build from the original source code at https://github.com/monero-project/monero-gui
+using command: make release -j4
+Built with Qt 5.15.8
+
+v0.18.2.0:
+Latest Version 0.18.2.0 in Releases, is also available in .tgz at https://home.mikebouckley.xyz/download/
+
+Install using command line, in Terminal by changing to /Applications folder and sudo tar xzvf ~/Downloads/monero-wallet-gui-0.18.2.0.tgz
+it is unsigned for Apple, so otherwise difficult to copy. There may be an initial warning dialog on execution, just Allow it. Or in Finder, right click to open, and confirm any dialogs.
+
+GUI Version 0.18.2.0-release (Qt 5.15.8)
+Embedded monero version 0.18.2.0-99be9a044
+
+Note: this version seems to have no control over the location of the 135Gb database created by monerod, default is in your home/.bitmonero/lmdb (which can be sym-linked). The database seems to be activated even in simple mode, but if the location is unavailable, the wallet gui will still work.
 
 v0.18.1.2:
 I could not yet create an Apple .dmg of just the monero-wallet-gui.app, and the file i made is nearly 500Mb, of the compiled source, which is too big for github. There is a supporting website, at https://home.mikebouckley.xyz/download/
@@ -16,6 +29,5 @@ My Server is usually availiable 24/7. Its solar powered, so occasionally OUT lat
 
 The 10Mb. monero-wallet-gui.app is here, and in Releases ( -with a longer file name) in tar.xz format.
 
-v0.18.2.0:
-Latest Version 0.18.2.0 in Releases, is also available in .tgz at https://home.mikebouckley.xyz/download/
+This version has better control over the monerod database location, and works normally in simple mode.
 
