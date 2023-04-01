@@ -3,7 +3,7 @@
 Monero wallet Gui files, compiled on M1 Macbook Pro, for arm64-apple-darwin22.3.0 kernel, Apple clang version 14.0.0 (clang-1400.0.29.102)
 built on Ventura OS, works on Monterey. Target (maybe) macOS 10.12 - 10.13 for better backwards compability.
 
-It is quite easy to build from the original source code at https://github.com/monero-project/monero-gui using command: make release -j4
+If Qt is configured ok, it is quite easy to build from the original source code at https://github.com/monero-project/monero-gui using command: make release -j4
 
 Built with Qt 5.15.8
 
@@ -17,7 +17,9 @@ it is unsigned for Apple, so otherwise difficult to copy. There may be an initia
 GUI Version 0.18.2.0-release (Qt 5.15.8)
 Embedded monero version 0.18.2.0-99be9a044
 
-Note: this version seems to have no control over the location of the 135Gb database created by monerod, default is in your home/.bitmonero/lmdb (which can be sym-linked). The database seems to be activated even in simple mode, but if the location is unavailable, the wallet gui will still work.
+Note: this build has a problem, no Node Menu in Settings, it has no control over the location of the Node 135Gb database created by monerod, default is in your home/.bitmonero/lmdb (which can be sym-linked). The database seems to be activated even in simple mode, but if the location is unavailable, the wallet gui will still work.
+
+I am working on it, re-configuring Qt from source, then trying to make deploy, and sign the Application.
 
 v0.18.1.2:
 
