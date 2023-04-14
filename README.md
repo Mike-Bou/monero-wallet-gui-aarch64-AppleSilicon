@@ -9,21 +9,29 @@ Built with Qt 5.15.8 from Homebrew.
 
 v0.18.2.2:
 
-Version 0.18.2.2 in Releases.
+Version 0.18.2.2 in Releases, is also available at https://home.mikebouckley.xyz/download/
+
+Source Code downloaded from:
+git clone --branch master --recursive https://github.com/monero-project/monero-gui.git
+or substituting master for version eg v0.18.2.2
+Built with 'cmake -D CMAKE_BUILD_TYPE=Release -D ARCH=default -D CMAKE_PREFIX_PATH= /opt/homebrew/Cellar/qt@5/5.15.8_2/clang_64 ..'
+make
+
 
 v0.18.2.0:
 
-Version 0.18.2.0 in Releases, is also available in .tgz at https://home.mikebouckley.xyz/download/
+Version 0.18.2.0 in Releases, is also available in .dmg and .tgz at https://home.mikebouckley.xyz/download/
 
 Use the .dmg. Or install using command line, in Terminal by changing to /Applications folder and sudo tar xzvf ~/Downloads/monero-wallet-gui-0.18.2.0.tgz
 it is unsigned for Apple, so otherwise difficult to copy. There may be an initial warning dialog on execution, just Allow it. Or in Finder, right click to open, and confirm any dialogs.
 
 Built with 'cmake -D CMAKE_BUILD_TYPE=Release -D ARCH=default -D CMAKE_PREFIX_PATH= /opt/homebrew/Cellar/qt@5/5.15.8_2/clang_64 ..'
+make
 
 GUI Version 0.18.2.0-release (Qt 5.15.8)
 Embedded monero version 0.18.2.0-99be9a044
 
-I am still working on it, built Qt 5.15.8 from source, ran 'make deploy' and trying to sign and get Notarised the Application.
+I am still working on it, built Qt 5.15.8 from source, ran 'make deploy' (which causes problems later) and trying to sign and get Notarised the Application!
 
 v0.18.1.2:
 
