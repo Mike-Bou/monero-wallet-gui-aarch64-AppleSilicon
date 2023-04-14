@@ -7,11 +7,15 @@ If Qt is configured ok, it is quite easy to build from the original source code 
 
 Built with Qt 5.15.8 from Homebrew.
 
+v0.18.2.2:
+
+Version 0.18.2.2 in Releases.
+
 v0.18.2.0:
 
-Latest Version 0.18.2.0 in Releases, is also available in .tgz at https://home.mikebouckley.xyz/download/
+Version 0.18.2.0 in Releases, is also available in .tgz at https://home.mikebouckley.xyz/download/
 
-Install using command line, in Terminal by changing to /Applications folder and sudo tar xzvf ~/Downloads/monero-wallet-gui-0.18.2.0.tgz
+Use the .dmg. Or install using command line, in Terminal by changing to /Applications folder and sudo tar xzvf ~/Downloads/monero-wallet-gui-0.18.2.0.tgz
 it is unsigned for Apple, so otherwise difficult to copy. There may be an initial warning dialog on execution, just Allow it. Or in Finder, right click to open, and confirm any dialogs.
 
 Built with 'cmake -D CMAKE_BUILD_TYPE=Release -D ARCH=default -D CMAKE_PREFIX_PATH= /opt/homebrew/Cellar/qt@5/5.15.8_2/clang_64 ..'
