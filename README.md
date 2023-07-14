@@ -12,7 +12,7 @@ Built with Qt 5.15.8 from Homebrew.
 v0.18.2.2:
 
 Version 0.18.2.2 in Releases, is available at one or both of:
-https://home.mikebouckley.xyz/download/
+https://home.mikebouckley.xyz:8443/download/
 https://www.mikebouckley.net/download/
 -with screenshots showing it working.
 
