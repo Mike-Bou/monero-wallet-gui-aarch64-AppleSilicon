@@ -30,4 +30,8 @@ Any problems, try installing qt@5 from homebrew: https://brew.sh 'brew install q
 
 V0.18.3.1:
 
-The monero-wallet-gui source code needs updating to work with Qt5.15. I cannot build it. The Monero Org has now released an ARM version for MAC OS, also, later, Linux and Windows.
+The Monero Org has now released an ARM64 version for MAC OS, also, later, Linux and Windows.
+
+Download from <a href="getmonero.org">getmonero.org</a> or:
+
+<a href="https://github.com/monero-project/monero-gui/releases/tag/v0.18.3.1">github</a>
