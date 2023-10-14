@@ -18,7 +18,7 @@ https://mikebouckley.net/download/
 
 Source Code downloaded from:
 git clone --branch master --recursive https://github.com/monero-project/monero-gui.git
-or substituting master for version eg v0.18.2.2
+or substituting master for version eg v0.18.3.1
 
 Built with 'cmake -D CMAKE_BUILD_TYPE=Release -D ARCH=default -D CMAKE_PREFIX_PATH= /opt/homebrew/Cellar/qt@5/5.15.8_2/clang_64 ..
 && make
@@ -28,4 +28,6 @@ Codesigned.
 
 Any problems, try installing qt@5 from homebrew: https://brew.sh 'brew install qt@5'
 
+V0.18.3.1:
 
+The monero-wallet-gui source code needs updating to work with Qt5.15. I cannot build it. The Monero Org is woking on ARM version for MAC OS, also, later, Linux and Windows.
