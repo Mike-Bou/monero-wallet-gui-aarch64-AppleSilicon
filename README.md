@@ -1,6 +1,6 @@
 # monero-wallet-gui-aarch64-AppleSilicon
 
-V0.18.3.1:
+V0.18.3.3:
 
 The Monero Org has now released an ARM64 version for MAC OS, also, later, Linux and Windows.
 
