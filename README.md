@@ -20,7 +20,7 @@ If Qt is configured ok, it is quite easy to build from the original source code 
 
 Built with Qt 5.15.8 from Homebrew.
 
-v0.18.2.2 is the last one i buult.
+v0.18.2.2 is the last one i built.
 
 Source Code downloaded from:
 git clone --branch master --recursive https://github.com/monero-project/monero-gui.git
