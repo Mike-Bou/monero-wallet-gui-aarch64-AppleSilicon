@@ -20,16 +20,11 @@ If Qt is configured ok, it is quite easy to build from the original source code 
 
 Built with Qt 5.15.8 from Homebrew.
 
-v0.18.2.2:
-
-Version 0.18.2.2 in Releases, is also available at:
-https://mikebouckley.net/download/
--with screenshots showing it working.
-
+v0.18.2.2 is the last one i buult.
 
 Source Code downloaded from:
 git clone --branch master --recursive https://github.com/monero-project/monero-gui.git
-or substituting master for version eg v0.18.3.1
+or substituting master for version eg v0.18.3.3
 
 Built with 'cmake -D CMAKE_BUILD_TYPE=Release -D ARCH=default -D CMAKE_PREFIX_PATH= /opt/homebrew/Cellar/qt@5/5.15.8_2/clang_64 ..
 && make
